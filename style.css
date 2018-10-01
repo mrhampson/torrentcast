@@ -1,0 +1,14 @@
+body {
+  background: lightGray;
+  font: 12px sans-serif;
+}
+
+#dropDiv{
+  width: 500px;
+  height: 500px;
+  background: green;
+}
+
+.drag {
+  background: red !important;
+}

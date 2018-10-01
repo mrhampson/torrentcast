@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0">
+  <title>torrentcast</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="dropDiv">
+    <h1>Drag and drop to seed</h1>
+    <p id="seedingInfo"></p>
+  </div>
+  <div>
+    <form>
+      <label for="torrentId">Download from a magnet link: </label>
+      <input name="torrentId", placeholder="magnet:"/>
+      <button type="submit">Download</button>
+    </form>
+  </div>
+  <div>
+    <h2>Log</h2>
+    <div class="log"></div>
+  </div>
+
+  <script src="bundle.js"></script>
+</body>
+</html>

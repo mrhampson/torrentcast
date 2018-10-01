@@ -1,0 +1,20 @@
+{
+  "name": "torrentcast",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "drag-drop": "^4.2.0",
+    "webtorrent": "^0.102.4"
+  },
+  "devDependencies": {
+    "browserify": "^14.5.0",
+    "budo": "^10.0.4"
+  },
+  "scripts": {
+    "start": "budo index.js:bundle.js --live",
+    "build": "browserify index.js"
+  }
+}
